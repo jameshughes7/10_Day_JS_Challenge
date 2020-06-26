@@ -1,4 +1,4 @@
-import { add } from '../src/index';
+import { add } from '../../src/Day1/add';
 import { expect } from 'chai';
 
 describe('Add nums test', () => {

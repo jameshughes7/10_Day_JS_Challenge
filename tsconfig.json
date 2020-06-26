@@ -5,6 +5,6 @@
         "target": "es5",
         "module": "CommonJs",
     },
-    "include": ["**/src/*.ts", "**/test/*.ts"],
+    "include": ["src/**/*.ts", "test/**/*.ts"],
     "exclude": ["node_modules"]
 }

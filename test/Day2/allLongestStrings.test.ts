@@ -1,4 +1,4 @@
-import { allLongestStrings } from '../src/index';
+import { allLongestStrings } from '../../src/Day2/allLongestStrings';
 import { expect } from 'chai';
 
 describe('allLongestStrings test', () => {
