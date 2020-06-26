@@ -14,6 +14,21 @@ Update the `scripts` block in `package.json`:
 
 ```json
 "scripts": {
-    "test": "mocha -r ts-node/register **/test/**test.ts"
+    "test": "mocha -r ts-node/register test/**/*test.ts"
   }
+```
+
+Create `tsconfig.json` in the root of your project with:
+
+```json
+{
+    "compilerOptions": {
+        "outDir": "./built",
+        "allowJs": true,
+        "target": "es5",
+        "module": "CommonJs",
+    },
+    "include": ["src/**/*.ts", "test/**/*.ts"],
+    "exclude": ["node_modules"]
+}
 ```
