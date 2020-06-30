@@ -1,4 +1,4 @@
-import { arrayReplace } from '../../src/Playground/arrayReplace';
+import { arrayReplace } from '../../src/Day4/arrayReplace';
 import { expect } from 'chai';
 
 describe('Array replace test', () => {
