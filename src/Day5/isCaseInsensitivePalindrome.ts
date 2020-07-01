@@ -9,7 +9,6 @@ export const isCaseInsensitivePalindrome = ((inputString: String): boolean => {
     // For loop in reverse
     let reversedLowerCasedInputString = "";
     for (let i = lowerCasedInputString.length -1; i >= 0; i--) {
-        console.log(`i: ${i}`)
         reversedLowerCasedInputString += lowerCasedInputString[i];
     }
 
